@@ -14,7 +14,7 @@
               @foreach ($listings as $listing)
                 <tr class="border-gray-300">
                     <td class="px-4 py-8 border-t border-b border-gray-300 text-lg">
-                        <a href="/listings/show">
+                        <a href="/listings/{{$listing->id}}">
                             {{$listing->title}}
                         </a>
                     </td>
